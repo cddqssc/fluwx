@@ -38,9 +38,9 @@
 
 ## 准备
 
-[迁移到V4指南](./doc/MIGRATE_TO_V4_CN.md)
+[现在迁移到V6](./doc/MIGRATE_TO_V6.md)
 
-> 破坏性更新 ：从4.5.0起，当分享图片到微信时，如果不支持FileProvider方式分享，Fluwx不再尝试申请WRITE_EXTERNAL_STORAGE权限，这意味着你需要自己处理权限问题。
+> 注意：V6有很多破坏性更新，尤其是iOS方面，如支持scene_delegate和Swift Package Manager。请在迁移到V6之前仔细阅读文档。
 
 `Fluwx` 可以做很多工作但不是所有. 在集成之前，最好读一下[官方文档](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html).  
  然后你才知道怎么生成签名，怎么使用universal link以及怎么添加URL schema等.
