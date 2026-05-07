@@ -75,11 +75,9 @@ for more details.
 > For iOS, some configurations, such as url_scheme，universal_link, LSApplicationQueriesSchemes, can be configured by `fluwx`,
 > what you need to do is to fill configurations in `pubspec.yaml`
 
-- app_id. Recommend. It'll be used to generate scheme on iOS。This is not used to init WeChat SDK so you still need to call `fluwx.registerApi` manually.
+- app_id. This is not used to init WeChat SDK so you still need to call `fluwx.registerApi` manually.
 - debug_logging. Optional. Enable logs by setting it `true`.
 - flutter_activity. Optional. This is usually used by cold boot from WeChat on Android. `Fluwx` will try to launch launcher activity if not set.
-- universal_link. Recommend for iOS. It'll be used to generate universal link on your projects.
-- scene_delegate. Optional. Use `AppDelegate` or `SceneDelegate`. See [official documents](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS.html) for more details.
 
 - For iOS
  If you are failing `cannot load such file -- plist` on iOS, please do the following steps:
